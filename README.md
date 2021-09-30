@@ -1,6 +1,6 @@
 # Natours
 
-Create a simple touring service web with MongoDB, Express and Node.js.
+Create a simple tour booking service web with MongoDB, Express and Node.js.
 Stacks:
 MVC
 RESTful APIs: tour, user

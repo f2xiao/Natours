@@ -1,0 +1,23 @@
+{
+  "name": "Natours",
+  "version": "1.0.0",
+  "description": "Create a simple touring service web with MongoDB, Express and Node.js.\r Stacks:\r MVC\r RESTful APIs: tour, user",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/f2xiao/Natours.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/f2xiao/Natours/issues"
+  },
+  "homepage": "https://github.com/f2xiao/Natours#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

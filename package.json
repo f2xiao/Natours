@@ -1,0 +1,36 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "Create a simple tour booking service web with MongoDB, Express and Node.js.\r Stacks:\r MVC\r RESTful APIs: tour, user",
+  "main": "app.js",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.26.1",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "prettier": "^2.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/f2xiao/Natours.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/f2xiao/Natours/issues"
+  },
+  "homepage": "https://github.com/f2xiao/Natours#readme"
+}

@@ -14,6 +14,13 @@ app.use(express.json());
 // serve static files
 app.use(express.static(`${__dirname}/public`));
 
-// router
+// request time
+app.use((req, res, next) => {
+  const time = new Date();
+  req.requestTime = time.toISOString();
+  console.log(req.requestTime);
+  next();
+});
+// 2) Router
 app.use("/api/v1/tours", tourRouter);
 module.exports = app;

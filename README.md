@@ -45,4 +45,4 @@ RESTful APIs: tour, user
 - logging in, setting headers
 - parsing body
 - http request logger
-- Router (routes mapping logic and controller functions)
+- Router (routes mapping logic and controller functions), chain multiple middleware functions as handlers for a certain route
